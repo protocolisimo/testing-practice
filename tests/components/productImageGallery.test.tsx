@@ -19,8 +19,6 @@ describe('productImageGallery', () => {
         imagiesArray.forEach((url, index) => {
             expect(images[index]).toHaveAttribute('src', url);
         })
-    
-
     })
 
 
